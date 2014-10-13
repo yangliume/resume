@@ -23,7 +23,7 @@ body { font-family: Georgia; color: #444; }
 
 /* //-- header, body, footer -- */
 #hd { margin: 2.5em 0 3em 0; padding-bottom: 1.5em; border-bottom: 1px solid #ccc }
-#hd h2 { text-transform: uppercase; letter-spacing: 2px; }
+#hd h2 { letter-spacing: 2px; }
 #bd, #ft { margin-bottom: 2em; }
 
 /* //-- footer -- */
@@ -31,7 +31,7 @@ body { font-family: Georgia; color: #444; }
 #ft p { margin-bottom: 0; text-align: center;   }
 
 /* //-- core typography and style -- */
-#hd h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; }
+#hd h1 { font-size: 48px; letter-spacing: 3px; }
 h2 { font-size: 152% }
 h3, h4 { font-size: 122%; }
 h1, h2, h3, h4 { color: #333; }
@@ -70,5 +70,6 @@ a#pdf:hover { background: #222; }
 /* --// override to force 1/8th width grids -- */
 .yui-gf .yui-u{width:80.2%;}
 .yui-gf div.first{width:12.3%;}
+.yui-gf p { margin: 0.75em 0 3em 0; }
 
 
